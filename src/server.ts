@@ -9,7 +9,3 @@ app
   .then(() => {
     console.log('HTTP Server Running!')
   })
-
-app.get('/', (_, reply) => {
-  reply.send('Olá mundo')
-})
